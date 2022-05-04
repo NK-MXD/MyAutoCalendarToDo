@@ -1,0 +1,16 @@
+release/main.o
+release/googleauth.o
+release/mainwindow.o
+release/oauth2.o
+release/form.o
+release/calendar_data_manager.o
+release/new_event_dialog.o
+release/edit_calendar_dialog.o
+release/qrc_qml.o
+release/moc_mainwindow.o
+release/moc_googleauth.o
+release/moc_oauth2.o
+release/moc_form.o
+release/moc_calendar_data_manager.o
+release/moc_new_event_dialog.o
+release/moc_edit_calendar_dialog.o

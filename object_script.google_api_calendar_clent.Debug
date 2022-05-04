@@ -1,0 +1,16 @@
+debug/main.o
+debug/googleauth.o
+debug/mainwindow.o
+debug/oauth2.o
+debug/form.o
+debug/calendar_data_manager.o
+debug/new_event_dialog.o
+debug/edit_calendar_dialog.o
+debug/qrc_qml.o
+debug/moc_mainwindow.o
+debug/moc_googleauth.o
+debug/moc_oauth2.o
+debug/moc_form.o
+debug/moc_calendar_data_manager.o
+debug/moc_new_event_dialog.o
+debug/moc_edit_calendar_dialog.o
