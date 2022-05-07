@@ -30,8 +30,8 @@ void NewEventDialog::getNewEventParams(QString& summary, QDate& startDate, QDate
     }
     else
     {
-        startTime = QTime();
-        endTime = QTime();
+        startTime = QTime(0,0,0,-1);
+        endTime = QTime(0,0,0,-1);
     }
 }
 

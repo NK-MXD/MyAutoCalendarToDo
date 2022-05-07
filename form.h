@@ -4,6 +4,9 @@
 #include <QWidget>
 #include "oauth2.h"
 #include "calendar_data_manager.h"
+#include"jobscheduler.h"
+#include"job.h"
+#include<vector>
 
 namespace Ui {
     class Form;
@@ -15,6 +18,8 @@ class Form : public QWidget
 
 public:
     explicit Form(QWidget *parent = 0);
+    void jobScheduleReady();
+    void checkout();
     ~Form();
 
 
@@ -55,6 +60,10 @@ private:
 
     QString m_strSelectedEventID;
     QString m_strSelectedCalID;
+    bool flag;
+    JobScheduler m_jobScheduler;
+    std::vector<Job> m_allAutoEvents;
+    bool m_autoTaskFlag;
 };
 
 #endif // FORM_H

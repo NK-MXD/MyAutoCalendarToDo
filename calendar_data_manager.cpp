@@ -187,8 +187,8 @@ void CalendarDataManager::createEvent(const QString& access_token, const QString
     {
         str = QString("{\n") +
                 QString("\"summary\": \"%1\",\n").arg(summary) +
-                QString("\"start\": { \"date\": \"%1\" },\n").arg(startDate.toString()) +
-                QString("\"end\":   { \"date\": \"%1\" }\n").arg(endDate.toString()) +
+                QString("\"start\": { \"date\": \"%1\" },\n").arg(startDate.toString(Qt::ISODate)) +
+                QString("\"end\":   { \"date\": \"%1\" }\n").arg(endDate.toString(Qt::ISODate)) +
                 QString("}");
     }
     else
