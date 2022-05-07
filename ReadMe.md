@@ -1,0 +1,1 @@
+version4.5 结合google令牌获取机制，连接google calendar api 成功实现了利用api接口控制google calendar的目的，可以进行一些简单的api日历操作。
